@@ -1,8 +1,5 @@
 
-const user = {
-  id:'asd@naver.com',
-  pw:'spdlqj123!@'
-}
+
 
 /*
 
@@ -70,6 +67,13 @@ pw.addEventListener('input', passwordCheck)
 function LoginBtnClick(event){
 
   event.preventDefault() 
+
+  // 유저 감추기
+  const user = {
+    id:'asd@naver.com',
+    pw:'spdlqj123!@'
+  }
+
   if(email.value === user.id && pw.value === user.pw){
     
     window.location.href = 'welcome.html';
