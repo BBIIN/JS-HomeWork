@@ -62,15 +62,15 @@ function passwordCheck(){
   }
 }
 
+// 비밀번호 input 입력시 유효성 검사 실행 이벤트
 pw.addEventListener('input', passwordCheck)
 
 
 // 버튼 클릭시 실행
-
 function LoginBtnClick(event){
 
-  event.preventDefault()
-  if(email.value == user.id && pw.value == user.pw){
+  event.preventDefault() 
+  if(email.value === user.id && pw.value === user.pw){
     
     window.location.href = 'welcome.html';
   }else{
@@ -78,5 +78,5 @@ function LoginBtnClick(event){
   }
 }
 
-
+// 로그인 버튼에 클릭 이벤트 추가
   btn.addEventListener('click', LoginBtnClick)
