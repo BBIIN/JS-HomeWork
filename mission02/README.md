@@ -2,7 +2,7 @@
 
 ### 엘리멘탈 포스터 슬라이드
 
-![slideResult](https://github.com/BBIIN/HomeWork/assets/107901091/16a37cc7-bb72-4060-9b41-42ee0e19bdf0)
+![slideResult](https://github.com/BBIIN/JS-HomeWork/assets/107901091/467e8632-a14a-45f3-92d3-9ea4e902bc62)
 
 
 ### 배경색 지정
